@@ -1,0 +1,608 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Alcal Group(T)ltd</title>
+<link rel="shortcut icon" href="image/logo.ico" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous">
+  
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+    
+<link rel="stylesheet" href="./style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="./w3.css" type="text/css" media="screen" />
+
+
+</head>
+<body data-spy="scroll" data-target="#pageContent" data-offset="50">
+
+<!--////////////////////////////////////-->
+<div class="se-pre-con"></div>
+<!--////////////end of loader//////-->
+<!-- Navbar -->
+
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+     <a href="home.html"  style="float:left"><img src="image/logosmall.jpeg" width="12%" height="5%"></a>
+    <a href="home.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a  class="w3-bar-item w3-button w3-padding-large w3-hide-small" onclick="document.getElementById('contact').style.display='block'">CONTACT US</a>
+   <!-- <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">VACANCY</a>-->
+    </div>
+  </div>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="home.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large">ABOUT US</a>
+    <a  class="w3-bar-item w3-button w3-padding-large" onclick="document.getElementById('contact').style.display='block'">CONTACT US</a>
+    <!--<a href="#" class="w3-bar-item w3-button w3-padding-large">VACANCY</a>-->
+  </div>
+  <!--  end of navbar top-->
+  <!--////////////////////////////////-->
+  
+  <!--begin for Contact -->
+
+  <form id="form1" name="message1" method="post" action="#">
+   <div id="contact" class="w3-modal">
+     <div class="w3-modal-content w3-animate-top w3-card-4">
+       <header class="w3-container w3-teal w3-center w3-padding-32">
+         <span onClick="document.getElementById('contact').style.display='none'"
+        class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+         <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Contact Us</h2>
+       </header>
+       <div class="w3-container">
+         <p><label><i class="glyphicon glyphicon-user" ></i></i> Name</label></p>
+         <input class="w3-input w3-border" required name="name"type="text" placeholder="Enter your name?">
+         <p><label><i class="fa fa-envelope" style="font-size:24px"></i></i> Your Email</label></p>
+         <input class="w3-input w3-border"name="email" required type="email" placeholder="Enter email">
+         <p><label><i class="fa fa-envelope" style="font-size:24px"></i></i> subject</label></p>
+         <input class="w3-input w3-border"name="subject" type="text" required placeholder="Your subject">
+         <p><label for="comment">Your Message:</label></p>
+        <textarea name="comment" class="form-control" rows="5" rows="4" cols="50"placeholder="Your message" id="comment">
+        </textarea>
+         <input id="messsage" type="submit" name="submit" class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right" value="send"><!--<i class="fa fa-check"></i></button>-->
+         <button class="w3-button w3-red w3-section" onclick="document.getElementById('contact').style.display='none'">Close <i class="fa fa-remove"></i></button>
+       </div>
+     </div>
+   </div>
+ </form>
+<!-- end for contact-->
+  <div class="w3-content" style="max-width:2000px;margin-top:46px">
+  <div align="center" id="wrapper">
+    <div  id="pageContent" >
+      <div id="slideContent" align="center">
+    <!-- sliding on top for home-->
+     <!--trying to make image slide n one dv-->
+     <table border="0" style="width:1000px; height:100px;">
+      <tr>
+        <td>
+          <div id="myCarousel" align="center" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators" align="center">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="image/st.jpg" align="w3-center"  style="width:560px;height:400px;">
+      <div class="carousel-caption">
+          <h3 style="color:black;">We supply stationaries equipment at affordable price</h3>
+
+        </div>
+
+    </div>
+
+    <div class=" item">
+      <img src="image/thermoR.jpg" align="center" style="width:560px;height:400px;">
+      <div class="carousel-caption">
+          <h3 style="color:#FF0000;">We supply of thermal paper rolls for your POS  </h3>
+
+        </div>
+    </div>
+    <div class=" item">
+      <img src="image/RetailSystem.jpg" align="center" style="width:560px;height:400px;">
+      <div class="carousel-caption">
+          <h3 style="color:#FF0000;">We provide the best Point of sale</h3>
+
+        </div>
+    </div>
+    <div class=" item">
+      <img src="image/logo.jpg" align="center" style="width:560px;height:400px;">
+      <div class="carousel-caption">
+          <h3 style="color:#FF0000;"></h3>
+
+        </div>
+    </div>
+    <div class=" item">
+      <img src="image/softwareI.jpg" align="center" style="width:560px;height:400px;">
+      <div class="carousel-caption">
+          <h3 style="color:#FF0000;">we install different software for businesses</h3>
+
+        </div>
+    </div>
+
+    <div class="item">
+      <img src="image/adtr.jpg" align="center" style="width:560px;height:400px;">
+      <div class="carousel-caption">
+          <h3 style="color:red;">We put ads on buses</h3>
+
+        </div>
+    </div>
+    <div class="item">
+      <img src="image/2614265_orig.jpg" align="center" style="width:560px;height:400px;">
+      <div class="carousel-caption">
+          <h3 style="color:red;">We offer E-Bus ticketing</h3>
+
+        </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" " data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left icon-prev" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel"  data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right icon-next" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</td>
+</tr>
+</table>
+    <!--<img src="image/logo.jpeg" width="1400px" height="300" alt="logo">-->
+      
+    </div>
+         <div><h1 align="w3-center">What we do! </br></h1></div>
+      <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading "><h4><i>E-Bus ticketing</i></h4></div>
+        <div class="panel-body">
+          <!--trying to make image slide n one dv-->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="image/images_ebus.jpg" width="120%"  alt="Los Angeles">
+    </div>
+
+    <div class=" item">
+      <img src="image/images_eticket.jpg" width="120%"  alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="image/eticketing.jpg" width="120% "  alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" " data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left icon-prev" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel"  data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right icon-next" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+          <!--<img src="image/cross_platform_about_us.jpg" style="width:100%">-->
+        </div>
+         <div class="panel-footer  w3-grey">
+           <p><br/><b>We provide an automated electronic bus ticketing system that simplifies and manages the revenues inflow between and at the terminals using Point Of Sales (POS) machines, USSD applications and web based. The system is to enable the transformation from the legacy of traditional manual ticketing ways to sophisticated ways that marks advancement of technology in the Tanzania</b></p></div>
+      </div>
+    </div>
+    <!--mwanzo wa kila kitu on slidng-->
+    
+<!-- want  to test for one pos to slide-->
+    
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading "><h4><i>Point of sale systems(POS)</i></h4></div>
+        <div class="panel-body">
+          <!--trying to make image slide n one dv-->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="image/images_posmult.jpg" width="120%"  alt="Los Angeles">
+    </div>
+
+    <div class=" item">
+      <img src="image/images___.jpg" width="120%"  alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="image/pos.jpg" width="120% "  alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" " data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left icon-prev" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel"  data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right icon-next" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+          <!--<img src="image/cross_platform_about_us.jpg" style="width:100%">-->
+        </div>
+         
+         <div class="panel-footer  w3-grey">
+           <p><br/><b>We offer the best and flexible point of sales softwares for your business,</br>
+            our softwares are aimed at doing away the unnecessary need for price tags, stock control, price changes,
+          </br> different types of discounts and much more.We also provide wide range of hardware, card printers, card solutions for access, payment solutions and identification.</b></p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading "><h4><i>Ad-Transit</i></h4></div>
+        <div class="panel-body">
+          <!--trying to make image slide n one dv-->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="image/adt.jpg" width="120%"  alt="Los Angeles">
+    </div>
+
+    <div class=" item">
+      <img src="image/adtra.jpg" width="120%"  alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="image/adtrans.jpg" width="120% "  alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" " data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left icon-prev" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel"  data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right icon-next" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+          <!--<img src="image/cross_platform_about_us.jpg" style="width:100%">-->
+          </div>
+         <div class="panel-footer  w3-grey">
+           <p><br/><b>We do advertisements through interactive display system of invention <br>
+           placed in public transport vehicles, buses, trains, ferries and taxi cabs that helps entities to advertise themselves.</b></p></div>
+      </div>
+    </div>
+    <!-- end of a col-->
+  </div>
+  <!-- end of a row-->
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading "><h4><i>Computer equipment & softwares</i></h4></div>
+        <div class="panel-body">
+          <!--trying to make image slide n one dv-->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="image/compu.jpg" width="120%"  alt="Los Angeles">
+    </div>
+
+    <div class=" item">
+      <img src="image/imagescom.jpg" width="120%"  alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="image/indexcomp.jpg" width="120% "  alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" " data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left icon-prev" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel"  data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right icon-next" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+          <!--<img src="image/cross_platform_about_us.jpg" style="width:100%">-->
+        </div>
+         <div class="panel-footer  w3-grey">
+           <p><br/><b>Experience the best innovative system designs that meet your requirements and applications</b></p></div>
+      </div>
+    </div>
+    <!--mwanzo wa kila kitu on slidng-->
+    
+<!-- want  to test for one pos to slide-->
+    
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading "><h4><i>Office supplies & stationaries</i></h4></div>
+        <div class="panel-body">
+          <!--trying to make image slide n one dv-->
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="image/imagesstta.jpg" width="120%"  alt="Los Angeles">
+    </div>
+
+    <div class=" item">
+      <img src="image/stationariesss.jpg" width="120%"  alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img src="image/stat.jpg" width="120% "  alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" " data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left icon-prev" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel"  data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right icon-next" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+          <!--<img src="image/cross_platform_about_us.jpg" style="width:100%">-->
+        </div>
+         
+         <div class="panel-footer  w3-grey">
+           <p><br/><b>A variety of office supplies as papers, files, printers, ink, thermal papers roll and many more.</b></p>
+
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// nataka weka about us/////////////-->
+    <hr style="border-width: 1px; color:red">
+    <p><h3 id="about">About us</h3></p>
+    <hr style="border-width: 1px; color:red">
+<div class="tab" >
+  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Our History</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Our Team</button>
+</div>
+<div id="London" class="tabcontent">
+  <h1>Our Ground-breaking History</h1>
+  <p>
+    <h3>ALCAL GROUP COMPANY &reg LIMITED was found by Tanzanian entrepreneurs who are dedicated in improving people’s voluntary tax compliance and solving problems on the sector of information and communication technology (ICT) and other public related activities;
+The Company was incorporated under the companies Act of 2002 and that the company is limited in its shares.</h3>
+  </p>
+</div>
+<div id="Paris" class="tabcontent">
+  <h3>Our Amazing Team</h3>
+   <table class="table table-striped table-hover table-condensed">
+  <thead>
+    <tr>
+ <th> Name</th><th>Position</th>
+    </tr>
+ </thead>
+<tbody>
+  <tr><td>MR. ALBERT N. MTESIGWA</td><td>MANAGING DIRECTOR</td></tr>
+  <tr><td>ENG. CALVIN L.M MASANJA</td><td>TECHNICAL DIRECTOR</td></tr>
+  <tr><td>ENG. BENJAMIN C.  CHAULA</td><td>HEAD OF SOFTWARE DEVELOPMENT</td></tr>
+  <tr><td>MR. LAWRENCE D. NZWAMUKI</td><td>HEAD HUMAN RESOURCES</td></tr>
+  <tr><td>ENG. FRANCISCO KISUKA</td><td>GENERAL MANAGER</td></tr>
+  <tr><td>MR. HONEST EDSON</td><td>CHIEF ACCOUNTS AND FINANCE</td></tr>
+  <tr><td>ADV. FABIAN KISUKA</td><td>HEAD OF LAWS AND ENFORCEMENT</td></tr>
+  <tr><td>SARAH JACKSON</td><td>CHIEF SALES AND MARKETING</td></tr>
+  <tr><td>MR.EDWIN ISMAIL</td><td>LEADING IT AND SOFTWARE ENGINEER</td></tr>
+</tbody>
+
+ 
+</table>
+</div>
+</div>
+
+ <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////// end of about us/////////////-->
+    </div>
+</div>
+</div>
+
+<div style="width: 100%; background:rgb(146, 133, 196)">
+  <h1 align="center">Find us on map</h1>
+<div id ="map" align="center" style="width:100%; height:200px">
+  
+</div>
+</div>
+<footer class="w3-container w3-black">
+  <!--<div id="main" class="w3-container" >-->
+    <!-- the div with id= main is the main div-->
+<div class="row" >
+  <!--<div class="col-md-5 col-sm-5">
+  </div>-->
+  <!--style="float: right; padding: 10px; style="float: left; padding: 20px;"<div class="col-md-3 col-sm-3"><div class="col-md-12 col-sm-12">-->
+  <div class="col-md-50 col-sm-50">
+      <h3>CONTACT</h3>
+      <p>Our andress</p>
+  <p>Sam Nujoma Road,Opposite Mlimani city mall,Kinondoni.&nbsp;||&nbsp;P.O.Box 71839, Dar Es Salaam,Tanzania.&nbsp; ||&nbsp; Phone: (+255)655-015-416&nbsp;||&nbsp; (+255)652-140-917 &nbsp;||&nbsp; E-mail: info@alcalgroup.com
+</p>
+  </div>
+
+</div>
+<div>
+  <div class="col-md-500 col-sm-500 w3-center w3-purple" style="float: center;"  >
+    <p style="float: center;" align="w3-center"> &copy;2017 Alcal group &reg;ltd&nbsp;&nbsp; 
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-instagram"></a>
+<br>&nbsp;&nbsp; designed by Edwin Ismail&nbsp;||&nbsp;Email:&nbsp;&nbsp;<b>eismail44(at)gmaildotcom</b>
+&nbsp; &nbsp;
+  </div>
+  
+</div>
+</footer>
+<div id="loading">
+</div>
+</body>
+
+
+<script>
+  /* for small screen*/
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('contact');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+/*-6.773263, 39.222286*/
+function initMap() {
+        var uluru = {lat: -6.7730910, lng: 39.2220940};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+       /* for our history pane*/
+      function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+/*end of history pane*/
+
+/* end of preload 2*/
+$(window).load(function() {
+    // Animate loader off screen
+    $(".se-pre-con").fadeOut("slow");;
+  });
+</script>
+ <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: none;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+  </style>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoLrdTWY8ayz8rUDZ0IzN1giS7dNPsmqc&callback=initMap"
+  type="text/javascript"></script>
+</html>
+
+
