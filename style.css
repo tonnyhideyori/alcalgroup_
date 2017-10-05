@@ -1,0 +1,256 @@
+
+* {
+    box-sizing: border-box;
+}
+*{padding:0px;
+ margin:0px;
+	}
+body {
+	background-image:url(image/shapes_shape_line_points_92772_2560x1600.jpg);
+	background-color:#C0C0C0;
+	text-decoration: blink;
+  font-family: "Lato", sans-serif;
+  overflow-y: scroll;
+	overflow-x: hidden;
+	/*animation: slide 60s linear infinite;*/
+  	/*font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;*/
+}
+a {
+	font-size: 14px;
+	color:#CC0000;
+	}
+
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color:#CC0000;
+}
+a:active {
+	text-decoration: none;
+	color: #03F;
+}
+backgroung-image{
+
+	animation: slide 60s linear infinite; repeat-x;
+
+
+}
+ul{
+
+   list-style:none;
+   padding:0px;
+   margin:0px;
+	}
+ ul li{
+   padding:0px;
+   margin:0px;
+   list-style:none;
+   float:left;
+   padding-right:5px;
+   position:relative;
+	}
+ul a{
+	display:table-cell;
+	vertical-align:middle;
+	width:100px;
+	height:30px;
+	text-align:center;
+	}
+
+	ul a:hover{
+		}
+
+li > ul{
+		display:none;
+	    position:absolute;
+		left:0;
+		top:100%;
+    }
+ li:hover>ul{display:block;}
+
+ li >ul>li{padding:0px;
+  padding-top:1px;
+	 }
+   #pageContent{
+width:1000px;
+  background: rgb(146, 133, 196)
+   }
+   .detailscontaine{
+width: 1000px
+
+   }
+.linkdetails {
+    width:1000px;
+    padding:20px;
+}
+
+.detailscontainer {
+    display:block;  
+    
+}
+#slideContent{
+	position: center;
+	width:1000px;
+}
+.wrapper {
+  overflow: hidden;
+}
+
+/*.sliding-background {
+  background: url("image/light_faded_background_85547_2560x1600.jpg") repeat-x;
+  height: 560px;
+  width: 5076px;
+  animation: slide 60s linear infinite;
+}*/
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+/*@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+/*length of each slide in seconds*/
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+hr {
+	color: white;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
+    .no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(image/giphy-downsized.gif) center no-repeat #fff;
+	background-color: rgb(227, 242, 244);
+}
+
+/**/
+ /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+} 
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+}
+img {
+
+}
